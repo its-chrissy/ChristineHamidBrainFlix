@@ -1,0 +1,26 @@
+@use "../partials/fonts.scss" as *;
+@use "../partials/mixins.scss" as *;
+@use "../partials/variables.scss" as *;
+
+section {
+  padding: 0 1rem;
+}
+.videoviews__title > h1 {
+  font-family: "AvenirNext-bold";
+  padding-bottom: 1rem;
+}
+
+.videoviews__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.videoviews__box2-views {
+  padding-top: 10px;
+}
+
+.videoviews__box2-likes {
+  padding-top: 10px;
+}

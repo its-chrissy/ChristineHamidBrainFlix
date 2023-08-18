@@ -1,14 +1,19 @@
-import Logo from "../../assets/images/BrainFlix-logo.svg";
-import SearchBar from "../Header/SearchBar";
-import HeaderButton from "../Header/HeaderButton";
+import SearchBar from "./SearchBar";
+import UploadButton from "./UploadButton";
 import upload from "../../assets/images/Icons/upload.svg";
+import Logo from "./Logo";
+import Avatar from "../Content/Avatar";
+import "../../styles/components/HeaderNav.scss";
 
 function HeaderNav() {
   return (
-    <div className="HeaderNav">
+    <div className="header__nav">
       <Logo />
-      <SearchBar />
-      <HeaderButton name="Upload" img={upload} />
+      <div className="header__nav-box">
+        <SearchBar />
+        <Avatar />
+      </div>
+      <UploadButton name="Upload" img={upload} />
     </div>
   );
 }

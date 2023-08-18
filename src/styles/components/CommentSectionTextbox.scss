@@ -1,0 +1,12 @@
+@use "../partials/fonts.scss" as *;
+@use "../partials/mixins.scss" as *;
+@use "../partials/variables.scss" as *;
+
+.CommentSectionTextbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  margin-right: 280px;
+}

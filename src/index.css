@@ -14,12 +14,6 @@ body {
   font-weight: 400;
 }
 
-@font-face {
-  font-family: "AvenirNext-semi-bold";
-  src: url("./assets/fonts/AvenirNextLTProDemi.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 600;
-}
 
 @font-face {
   font-family: "AvenirNext-bold";

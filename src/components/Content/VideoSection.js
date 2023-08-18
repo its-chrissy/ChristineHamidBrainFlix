@@ -1,13 +1,12 @@
-import Video from "./Video";
+import React from "react";
 import VideoViews from "./VideoViews";
 import VideoDescription from "./VideoDescription";
 
-function VideoSection() {
+function VideoSection({ currentVideo }) {
   return (
     <div className="VideoSection">
-      <Video />
-      <VideoViews />
-      <VideoDescription />
+      <VideoViews video={currentVideo} />
+      <VideoDescription video={currentVideo} />
     </div>
   );
 }

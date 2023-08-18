@@ -1,12 +1,12 @@
 import CommentSectionComments from "./CommentSectionComments";
 import CommentSectionTextbox from "./CommentSectionTextbox";
+import React from "react";
 
-
-function CommentSection() {
+function CommentSection({ currentVideo }) {
   return (
     <div className="CommentSection">
       <CommentSectionTextbox />
-      <CommentSectionComments />
+      <CommentSectionComments currentVideo={currentVideo} />
     </div>
   );
 }

@@ -1,14 +1,12 @@
-import displayicon from "../../assets/images/Mohan-muruge.jpg";
+import Avatar from "../Content/Avatar";
+import "../../styles/components/CommentSectionTextbox.scss";
+import React from "react";
 
 function CommentSectionTextbox() {
   return (
     <div className="CommentSectionTextbox">
       <div className="CommentSectionTextbox__one">
-        <img
-          className="CommentSectionTextbox__img"
-          alt="display icon"
-          src={displayicon}
-        />
+        <Avatar />
         <div className="CommentSectionTextbox__title">
           <p>JOIN THE CONVERSATION</p>
         </div>
@@ -18,7 +16,7 @@ function CommentSectionTextbox() {
           className="CommentSectionTextbox__input"
           placeholder="Add a new comment"
           cols="35"
-          rows="2"
+          rows="6"
         ></textarea>
         <div className="CommentSectionTextbox__btn">
           <button>COMMENT</button>
@@ -27,4 +25,5 @@ function CommentSectionTextbox() {
     </div>
   );
 }
+
 export default CommentSectionTextbox;

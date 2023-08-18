@@ -1,0 +1,40 @@
+@use "../partials/fonts.scss" as *;
+@use "../partials/mixins.scss" as *;
+@use "../partials/variables.scss" as *;
+
+.header__nav {
+  max-width: 75rem;
+  &-box {
+    display: flex;
+  }
+}
+
+#logo {
+  margin-left: 180px;
+  padding-top: 20px;
+
+  height: 33px;
+}
+
+.avatar {
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+//searchbar//
+input[type="text"] {
+  width: 360px;
+  height: 45px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.UpButton {
+  width: 450px;
+  height: 57px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}

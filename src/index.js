@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-//import "./assets/fonts/"; // <<<<<<<<<<<<ASK ANKUR ABOUT WHY I CANT REACH SPECIFIC FONT //
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
