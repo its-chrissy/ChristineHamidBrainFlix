@@ -1,21 +1,22 @@
-
-import comments from "../../data/video-details.json";
+import React from "react";
 import Avatar from "../../components/Content/Avatar";
+import comments from "../../data/video-details.json";
 
 function CommentSectionComments({ currentVideo }) {
   console.log(comments);
+  
   return (
-    <section>
+   < section>
       {currentVideo.comments.map((comments) => (
-        <div className="commentssection">
-          <div className="commentssection__avatar">
+        <div className="posted-comments">
+          <div className="posted-comments__pic">
             <Avatar />
           </div>
           <div>
-            <div className="commentssection__name">
+            <div className="posted-comments__name">
               <span>{comments.name}</span>
             </div>
-            <div className="commentssection__comment">
+            <div className="posted-comments__content">
               <span>{comments.comment}</span>
             </div>
           </div>
@@ -24,5 +25,4 @@ function CommentSectionComments({ currentVideo }) {
     </section>
   );
 }
-
 export default CommentSectionComments;

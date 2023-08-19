@@ -2,11 +2,47 @@
 @use "../partials/mixins.scss" as *;
 @use "../partials/variables.scss" as *;
 
-.CommentSectionTextbox {
-  display: flex;
-  flex-direction: column;
-}
+// .commenttextbox__one {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// }
 
 .avatar {
-  margin-right: 280px;
+  margin-right: 10px;
+}
+
+button {
+  width: 285px;
+  height: 50px;
+  border-radius: 6px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 110px;
+  background-color: $Brain-Flix-Blue;
+  border-color: $Brain-Flix-Blue;
+  border-style: none;
+  background-image: url("../../assets/images/Icons/add_comment.svg");
+  background-repeat: no-repeat;
+  background-position: 5% center;
+  background-size: 25px;
+  color: $Alabaster;
+  font-weight: 600;
+  font-family: "AvenirNext-normal";
+}
+
+.commenttextbox__input {
+  margin-left: 110px;
+  background-color: $Alabaster;
+  border-color: $Silver;
+  border-radius: 5px;
+  font-family: "AvenirNext-normal";
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.commenttextbox__title {
+  color: $Silver;
+  font-weight: 500;
+  margin-left: 110px;
 }

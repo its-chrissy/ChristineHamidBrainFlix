@@ -4,9 +4,9 @@ import MainVideo from "./components/Content/MainVideo";
 import VideoSection from "./components/Content/VideoSection";
 import NextVideosSection from "./components/Content/NextVideosSection";
 import CommentSectionTextbox from "./components/Content/CommentSectionTextbox";
-
-
+import "./styles/components/global/Global.scss";
 import data from "./data/video-details.json";
+// import CommentSectionComments from "./components/Content/CommentSectionComments";
 
 function App() {
   const [currentVideo, setCurrentVideo] = useState(data[0]);
@@ -16,15 +16,16 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <body className="App">
       <HeaderNav />
       <div className="AppContent">
         <MainVideo video={currentVideo} />
         <VideoSection currentVideo={currentVideo} />
-        <CommentSectionTextbox />
+        <CommentSectionTextbox currentVideo={currentVideo} />
+        {/* <CommentSectionComments /> */}
         <NextVideosSection onVideoClick={handleVideoClick} />
       </div>
-    </div>
+    </body>
   );
 }
 

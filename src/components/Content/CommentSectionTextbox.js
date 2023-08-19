@@ -4,21 +4,23 @@ import React from "react";
 
 function CommentSectionTextbox() {
   return (
-    <div className="CommentSectionTextbox">
-      <div className="CommentSectionTextbox__one">
-        <Avatar />
-        <div className="CommentSectionTextbox__title">
+    <div className="commentextbox">
+      <div className="comenttextbox__one">
+        <div className="comenttextbox__avatar">
+          <Avatar />
+        </div>
+        <div className="commenttextbox__title">
           <p>JOIN THE CONVERSATION</p>
         </div>
       </div>
-      <div className="CommentSectionTextbox__two">
+      <div className="commenttextbox__two">
         <textarea
-          className="CommentSectionTextbox__input"
+          className="commenttextbox__input"
           placeholder="Add a new comment"
-          cols="35"
+          cols="39"
           rows="6"
         ></textarea>
-        <div className="CommentSectionTextbox__btn">
+        <div className="commenttextbox__btn">
           <button>COMMENT</button>
         </div>
       </div>

@@ -1,0 +1,14 @@
+@use "../partials/fonts.scss" as *;
+@use "../partials/mixins.scss" as *;
+@use "../partials/variables.scss" as *;
+
+.video__description {
+  padding-left: 20px;
+  font-weight: 400;
+  padding-right: 20;
+}
+
+.video__description-three {
+  font-weight: 600;
+  padding-left: 20px;
+}

@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Installation:
+
+Clone the repository:
+https://github.com/its-chrissy/ChristineHamidBrainFlix.git
+
+## Navigate to the project directory:
+
+cd your-project
+
+## Install dependencies
+
+npm install

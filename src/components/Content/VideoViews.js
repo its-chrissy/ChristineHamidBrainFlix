@@ -3,11 +3,12 @@ import likesIcon from "../../assets/images/Icons/likes.svg";
 import "../../styles/components/VideoViews.scss";
 import React from "react";
 
+
 function VideoViews({ video }) {
   return (
     <section>
       <div className="videoviews__title">
-        <h1> {video.title}</h1>
+        <h2> {video.title}</h2>
       </div>
       <div className="videoviews__box">
         <div className="videoviews__box1">
