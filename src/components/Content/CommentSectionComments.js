@@ -1,23 +1,20 @@
 import React from "react";
 import Avatar from "../../components/Content/Avatar";
-import comments from "../../data/video-details.json";
 
 function CommentSectionComments({ currentVideo }) {
-  console.log(comments);
-  
   return (
-   < section>
-      {currentVideo.comments.map((comments) => (
-        <div className="posted-comments">
+    <section>
+      {currentVideo?.comments.map((comment) => (
+        <div className="posted-comments" key={comment.id}>
           <div className="posted-comments__pic">
             <Avatar />
           </div>
           <div>
             <div className="posted-comments__name">
-              <span>{comments.name}</span>
+              <span>{comment.name}</span>
             </div>
             <div className="posted-comments__content">
-              <span>{comments.comment}</span>
+              <span>{comment.comment}</span>
             </div>
           </div>
         </div>

@@ -1,8 +1,12 @@
+import {Link} from "react-router-dom";
+
 function UploadButton() {
   return (
-    <button className="upButton">
-      <h3 className="upbutton__p">UPLOAD</h3>
-    </button>
+    <Link to="/upload">
+      <button className="upButton">
+        <p className="upbutton__p">UPLOAD</p>
+      </button>
+    </Link>
   );
 }
 

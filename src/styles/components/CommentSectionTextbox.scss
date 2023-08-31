@@ -14,8 +14,8 @@
 
 button {
   width: 285px;
-  height: 50px;
-  border-radius: 6px;
+  height: 40px;
+  border-radius: 4px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 110px;
@@ -25,10 +25,16 @@ button {
   background-image: url("../../assets/images/Icons/add_comment.svg");
   background-repeat: no-repeat;
   background-position: 5% center;
-  background-size: 25px;
+  background-size: 20px;
   color: $Alabaster;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "AvenirNext-normal";
+  size: 10px;
+  @include tablet {
+    width: 150px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .commenttextbox__input {
