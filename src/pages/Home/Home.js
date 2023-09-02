@@ -6,6 +6,7 @@ import CommentSectionTextbox from "../../components/Content/CommentSectionTextbo
 import CommentSectionComments from "../../components/Content/CommentSectionComments";
 import axios from "axios";
 
+
 const Home = () => {
   const API_KEY = "91620a31-7977-48f3-9862-2cdbb7fae846";
   const [currentVideo, setCurrentVideo] = useState();
@@ -65,14 +66,20 @@ const Home = () => {
   return (
     <div className="AppContent">
       <MainVideo video={currentVideo} />
-      <VideoSection currentVideo={currentVideo} />
-      <CommentSectionTextbox currentVideo={currentVideo} />
-      <CommentSectionComments currentVideo={currentVideo} />
-      <NextVideosSection
-        videos={videos}
-        currentVideo={currentVideo}
-        onVideoClick={handleVideoClick}
-      />
+      <div className="content2">
+        <div className="content2__words">
+          <VideoSection currentVideo={currentVideo} />
+          <CommentSectionTextbox currentVideo={currentVideo} />
+          <CommentSectionComments currentVideo={currentVideo} />
+        </div>
+        <div className="content2__videos">
+          <NextVideosSection
+            videos={videos}
+            currentVideo={currentVideo}
+            onVideoClick={handleVideoClick}
+          />
+        </div>
+      </div>
     </div>
   );
 };
