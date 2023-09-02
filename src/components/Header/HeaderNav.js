@@ -9,11 +9,15 @@ function HeaderNav() {
   return (
     <div className="header__nav">
       <Logo />
-      <div className="header__nav-box">
-        <SearchBar />
-        <Avatar />
+      <div className="header__nav-box1">
+        <div className="header__nav-box2">
+          <SearchBar />
+          <UploadButton name="Upload" img={upload} />
+        </div>
+        <div className="header__nav-avatar">
+          <Avatar />
+        </div>
       </div>
-      <UploadButton name="Upload" img={upload} />
     </div>
   );
 }

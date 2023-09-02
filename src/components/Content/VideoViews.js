@@ -3,7 +3,6 @@ import likesIcon from "../../assets/images/Icons/likes.svg";
 import "../../styles/components/VideoViews.scss";
 import React from "react";
 
-
 function VideoViews({ video }) {
   return (
     <section>
@@ -13,7 +12,14 @@ function VideoViews({ video }) {
       <div className="videoviews__box">
         <div className="videoviews__box1">
           <p className="videoviews__box1-channel">By {video?.channel}</p>
-          <p className="videoviews__box1-timestamp"> {video?.timestamp}</p>
+          <p className="videoviews__box1-timestamp">
+            {" "}
+            {new Date(video?.timestamp).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "numeric",
+              day: "numeric",
+            })}
+          </p>
         </div>
         <div className="videoviews__box2">
           <p className="videoviews__box2-views">

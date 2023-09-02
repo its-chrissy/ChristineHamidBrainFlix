@@ -11,7 +11,7 @@ function VideoDescription({ video }) {
         <p>{video?.description}</p>
       </div>
       <div>
-        <p className="video__description-three">3 comments</p>
+        <p className="video__description-three">3 Comments</p>
       </div>
     </section>
   );

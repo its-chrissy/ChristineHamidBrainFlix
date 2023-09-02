@@ -1,0 +1,44 @@
+@use "../partials/fonts.scss" as *;
+@use "../partials/mixins.scss" as *;
+@use "../partials/variables.scss" as *;
+
+.posted-comments {
+  padding-top: 1px;
+}
+
+//Avatar//
+.posted-comments__pic {
+  margin-left: 14px;
+
+}
+
+.posted-comments__namedate {
+  display: flex;
+  padding-left: 50px;
+  margin-left: 1px;
+  margin-top: -60px;
+  height: 2.1875rem;
+  justify-content: space-between;
+  border-top: 1.5px solid $Mercury;
+  padding-top: 15px;
+ 
+}
+
+.posted-comments__name {
+  padding-top: 5px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.posted-comments__timestamp {
+  padding-top: 5px;
+  margin-left: 30px;
+  color: $Silver;
+}
+
+.posted-comments__content {
+  padding-top: 1px;
+  width: 76%;
+  margin-left: 80px;
+     padding-bottom: 15px;
+}

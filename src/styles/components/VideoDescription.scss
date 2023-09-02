@@ -6,8 +6,13 @@
   padding-left: 20px;
   font-weight: 400;
   padding-right: 20;
+  @include tablet{
+    width: 98%;
+  }
 }
 
+
+//3Comments//
 .video__description-three {
   font-weight: 600;
   padding-left: 20px;

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import MainVideo from "../Content/MainVideo";
-import VideoSection from "../Content/VideoSection";
-import NextVideosSection from "../Content/NextVideosSection";
-import CommentSectionTextbox from "../Content/CommentSectionTextbox";
-import CommentSectionComments from "../Content/CommentSectionComments";
+import MainVideo from "../../components/Content/MainVideo";
+import VideoSection from "../../components/Content/VideoSection";
+import NextVideosSection from "../../components/Content/NextVideosSection";
+import CommentSectionTextbox from "../../components/Content/CommentSectionTextbox";
+import CommentSectionComments from "../../components/Content/CommentSectionComments";
 import axios from "axios";
 
 const Home = () => {
