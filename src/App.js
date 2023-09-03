@@ -6,6 +6,7 @@ import Upload from "./pages/Upload/Upload";
 import "./styles/components/global/Global.scss";
 import "./styles/components/Home.scss"
 
+
 function App() {
   return (
     <body className="App">

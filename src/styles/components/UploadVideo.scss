@@ -1,0 +1,48 @@
+@use "../partials/fonts.scss" as *;
+@use "../partials/mixins.scss" as *;
+@use "../partials/variables.scss" as *;
+
+.upload__content {
+  margin-top: -20px;
+}
+
+h1 {
+  font-weight: 600;
+  padding-left: 18px;
+  color: $BrainFlix-Black;
+  border-top: 2px solid $Mercury;
+  padding-top: 20px;
+  @include tablet {
+    font-weight: 700;
+    font-size: 45px;
+    border-bottom: 2px solid $Mercury;
+    padding-bottom: 20px;
+  }
+}
+
+.upload__thumbnail {
+  color: $Silver;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+//img section//
+.upload__video {
+  text-align: center;
+  @include tablet {
+    text-align: start;
+  }
+}
+
+//img//
+.uploadvideo_img {
+  width: 100%;
+  padding: 8px;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-left: 3px;
+  @include tablet {
+    width: 50%;
+    margin-left: 18px;
+  }
+}

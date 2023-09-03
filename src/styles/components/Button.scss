@@ -1,0 +1,21 @@
+@use "../partials/fonts.scss" as *;
+@use "../partials/mixins.scss" as *;
+@use "../partials/variables.scss" as *;
+
+//Publish Btn//
+
+.publishbutton {
+  margin-left: 24px;
+  width: 360px;
+  background-image: url("../../assets/images/Icons/upload.svg");
+  background-repeat: no-repeat;
+}
+
+//Cancel Btn//
+.cancelbutton {
+  margin-left: 24px;
+  width: 360px;
+  color: $Brain-Flix-Blue;
+  background-color: white;
+  border-color: white;
+}
