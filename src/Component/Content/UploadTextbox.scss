@@ -1,0 +1,28 @@
+@use "../../styles/partials/fonts.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+
+.uploadtextbox__section {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.uploadtextbox__title {
+  color: $Silver;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+.uploadtextbox__input {
+  background-color: $Alabaster;
+  border-color: $Mercury;
+  font-weight: 600;
+  border-width: 1.5px;
+  border-radius: 5px;
+  font-family: "AvenirNext-normal";
+  padding-top: 15px;
+  @include tablet {
+    width: 95%;
+  }
+}

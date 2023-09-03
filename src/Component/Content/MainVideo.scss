@@ -1,0 +1,14 @@
+@use "../../styles/partials/fonts.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.video {
+  min-width: 100%;
+  margin-right: -20px;
+  @include tablet {
+    max-width: 768px;
+  }
+  @include desktop {
+    max-width: 1024px;
+  }
+}

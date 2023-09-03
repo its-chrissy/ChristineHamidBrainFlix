@@ -1,0 +1,25 @@
+@use "../../styles/partials/fonts.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.content2 {
+  @include desktop {
+    display: flex;
+    padding-left: 80px;
+    width: 65%;
+  }
+}
+
+.content2__words {
+  @include desktop {
+    width: 80%;
+  }
+}
+
+.content2__videos {
+  @include desktop {
+    margin-right: 20px;
+    border-left: 1.5px solid $Mercury;
+    margin-left: 5px;
+  }
+}

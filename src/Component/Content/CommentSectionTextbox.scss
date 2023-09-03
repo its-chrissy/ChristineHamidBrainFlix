@@ -1,0 +1,83 @@
+@use "../../styles/partials/fonts.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+// .commenttextbox__one {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// }
+
+.commenttextbox__avatar {
+  margin-left: 30px;
+  margin-top: 30px;
+  @include tablet{
+   
+}
+}
+
+button {
+  width: 19.0625rem;
+  height: 45px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 6.875rem;
+  background-color: $Brain-Flix-Blue;
+  border-color: $Brain-Flix-Blue;
+  border-style: none;
+  background-image: url("../../assets/images/Icons/add_comment.svg");
+  background-repeat: no-repeat;
+  background-position: 5% center;
+  background-size: 20px;
+  color: $Alabaster;
+  font-weight: 700;
+  font-family: "AvenirNext-normal";
+  size: 10px;
+  @include tablet {
+    width: 150px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: 30px;
+  }
+}
+
+//avatar and title//
+.commenttextbox__one {
+  margin-left: -14px;
+}
+
+//join the convo//
+.commenttextbox__title {
+  color: $Silver;
+  font-weight: 500;
+  margin-left: 100px;
+  margin-top: -95px;
+}
+
+//text box-box//
+.commenttextbox__two {
+  margin-top: -4px;
+  margin-left: -25px;
+  @include tablet{
+    display: flex;
+
+  }
+}
+
+.commenttextbox__input {
+  margin-left: 110px;
+  background-color: $Alabaster;
+  border-color: $Silver;
+  border-radius: 5px;
+  font-family: "AvenirNext-normal";
+  padding-top: 15px;
+  padding-left: 15px;
+  @include tablet{
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+
+  }
+}
+

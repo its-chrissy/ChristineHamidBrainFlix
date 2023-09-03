@@ -1,0 +1,26 @@
+@use "../../styles/partials/fonts.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+
+//entire upload content//
+.upload__content{
+    @include desktop {
+        width: 85%;
+        margin: 10px auto;
+    }
+}
+
+
+
+
+
+//btn section//
+.upload__btns {
+  @include tablet {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+     border-top: 2px solid $Mercury;
+  }
+}

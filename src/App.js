@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HeaderNav from "./components/Header/HeaderNav";
-import Home from "./pages/Home/Home";
-import Upload from "./pages/Upload/Upload";
-import "./styles/components/global/Global.scss";
-import "./styles/components/Home.scss"
-
+import HeaderNav from "./Component/Header/HeaderNav";
+import Home from "./Page/Home/Home";
+import Upload from "./Page/Upload/Upload";
+import "./Page/Home/Home.scss";
+import "./Page/Upload/Upload.scss";
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
       <Routes>
         <Route path={"/"} element={<Home />} />
         <Route path={"/upload"} element={<Upload />} />
+        <Route path={"/videos/:videoID"} element={<Home />} />
       </Routes>
     </body>
   );
