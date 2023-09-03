@@ -1,10 +1,10 @@
 import UploadVideo from "../../components/Content/UploadVideo";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import UploadTextbox from "../../components/Content/UploadTextbox";
 import PublishButton from "../../components/Content/PublishButton";
-import CancelButton from "../../components/Content/CancelButton"
-
-
+import CancelButton from "../../components/Content/CancelButton";
+import "../../styles/components/global/Global.scss";
+import "../../styles/components/Upload.scss";
 
 const Upload = () => {
   return (

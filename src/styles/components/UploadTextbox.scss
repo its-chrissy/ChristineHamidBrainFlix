@@ -4,6 +4,7 @@
 
 .uploadtextbox__section {
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .uploadtextbox__title {
@@ -20,4 +21,7 @@
   border-radius: 5px;
   font-family: "AvenirNext-normal";
   padding-top: 15px;
+  @include tablet {
+    width: 95%;
+  }
 }

@@ -9,6 +9,12 @@
   width: 360px;
   background-image: url("../../assets/images/Icons/upload.svg");
   background-repeat: no-repeat;
+  @include tablet{
+     width: 200px;
+
+
+  }
+
 }
 
 //Cancel Btn//
@@ -18,4 +24,8 @@
   color: $Brain-Flix-Blue;
   background-color: white;
   border-color: white;
+  @include tablet{
+     width: 200px;
+
+  }
 }
