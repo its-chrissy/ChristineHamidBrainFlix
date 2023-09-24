@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../Content/Avatar";
+import Avatar from "./Avatar";
 import "../Content/CommentSectionComments.scss";
 
 function CommentSectionComments({ currentVideo }) {

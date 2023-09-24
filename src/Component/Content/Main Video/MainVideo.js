@@ -1,5 +1,5 @@
 import React from "react";
-import "../Content/MainVideo.scss";
+import "../Main Video/MainVideo.scss";
 
 function MainVideo({ video }) {
   return (

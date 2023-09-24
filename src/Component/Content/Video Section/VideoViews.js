@@ -1,6 +1,6 @@
-import viewsIcon from "../../assets/images/Icons/views.svg";
-import likesIcon from "../../assets/images/Icons/likes.svg";
-import "../Content/VideoViews.scss";
+import viewsIcon from "../../../assets/images/Icons/views.svg";
+import likesIcon from "../../../assets/images/Icons/likes.svg";
+import "../Video Section/VideoViews.scss";
 import React from "react";
 
 function VideoViews({ video }) {

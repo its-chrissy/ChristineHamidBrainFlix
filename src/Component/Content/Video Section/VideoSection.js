@@ -1,6 +1,6 @@
 import React from "react";
-import VideoViews from "../Content/VideoViews";
-import VideoDescription from "../Content/VideoDescription";
+import VideoViews from "../Video Section/VideoViews";
+import VideoDescription from "../Video Section/VideoDescription";
 
 function VideoSection({ currentVideo }) {
   return (

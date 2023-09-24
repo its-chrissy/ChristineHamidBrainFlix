@@ -1,4 +1,4 @@
-import "../Content/Button.scss";
+import "../Upload Page/Button.scss";
 import React from "react";
 
 function CancelButton() {

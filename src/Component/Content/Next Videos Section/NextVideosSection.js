@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Content/NextVideosSection.scss";
+import "../Next Videos Section/NextVideosSection.scss";
 
 function NextVideosSection({ onVideoClick, videos }) {
   const [remainingVideos, setRemainingVideos] = useState(videos);

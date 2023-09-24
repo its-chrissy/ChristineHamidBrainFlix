@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import MainVideo from "../../Component/Content/MainVideo";
-import VideoSection from "../../Component/Content/VideoSection";
-import NextVideosSection from "../../Component/Content/NextVideosSection";
+import MainVideo from "../../Component/Content/Main Video/MainVideo";
+import VideoSection from "../../Component/Content/Video Section/VideoSection";
+import NextVideosSection from "../../Component/Content/Next Videos Section/NextVideosSection";
 import CommentSectionTextbox from "../../Component/Content/CommentSectionTextbox";
 import CommentSectionComments from "../../Component/Content/CommentSectionComments";
 import axios from "axios";
@@ -30,7 +30,7 @@ const Home = () => {
     // Initialize axios GET request
 
     axios
-      .get(`https://project-2-api.herokuapp.com/videos?api_key=${API_KEY}`)
+      .get(`${process.env.REACT_APP_SERVER_URL}/videos`)
 
       .then(async (response) => {
         // On successful response, set the data

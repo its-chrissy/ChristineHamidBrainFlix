@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Content/Notification.scss";
+import "../Upload Page/Notification.scss";
 
 function Notification() {
   const handleRedirectToHome = () => {};

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../Content/VideoDescription.scss";
+import "../Video Section/VideoDescription.scss";
 
 function VideoDescription({ video }) {
   return (

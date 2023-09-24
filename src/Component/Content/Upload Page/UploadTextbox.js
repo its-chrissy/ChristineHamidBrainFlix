@@ -1,7 +1,7 @@
-import "../Content/UploadTextbox.scss";
+import "../Upload Page/UploadTextbox.scss";
 import React from "react";
 
-function UploadTextbox() {
+function UploadTextbox({title, channel, handleTitleChange, handleChannelChange}) {
   return (
     <div className="uploadtextbox__section">
       <div className="uploadtextbox__title">
@@ -10,6 +10,8 @@ function UploadTextbox() {
       <textarea
         className="uploadtextbox__input"
         placeholder="Add a title to your video"
+        value={title}
+        onChange={handleTitleChange}
         cols="53"
         rows="2"
       ></textarea>
@@ -19,6 +21,8 @@ function UploadTextbox() {
       <textarea
         className="uploadtextbox__input"
         placeholder="Add a title to your video"
+        value={channel}
+        onChange={handleChannelChange}
         cols="53"
         rows="6"
       ></textarea>

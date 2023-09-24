@@ -1,5 +1,5 @@
-import videothumbnail from "../../assets/images/Upload-video-preview.jpg";
-import "../Content/UploadVideo.scss";
+import videothumbnail from "../../../assets/images/Upload-video-preview.jpg";
+import "../Upload Page/UploadVideo.scss";
 
 const UploadVideo = () => {
   return (
